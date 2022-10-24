@@ -30,7 +30,6 @@ Route::get('/', [PhotoController::class, 'index'])->name('index');;
 //     } else{
 //         abort('404');
 //     }
-
 // });
 
 //  Show the create form
